@@ -1,0 +1,80 @@
+html,body {
+	height: 100%;
+}
+
+body.my-task-page {
+	background-color: #f7f9fb;
+	font-size: 14px;
+	margin-top: 100px;
+}
+
+.my-task-page .brand {
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 40px auto;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+	position: relative;
+	z-index: 1;
+}
+
+.my-task-page .brand img {
+	width: 100%;
+}
+
+.my-task-page .card-wrapper {
+	width: 1000px;
+}
+
+.my-task-page .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.my-task-page .card.fat {
+	padding: 10px;
+}
+
+.my-task-page .card .card-title {
+	margin-bottom: 30px;
+}
+
+.my-task-page .form-control {
+	border-width: 2.3px;
+}
+
+.my-task-page .form-group label {
+	width: 100%;
+}
+
+.my-task-page .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.my-task-page .footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.my-task-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-task-page .card.fat {
+		padding: 0;
+	}
+
+	.my-task-page .card.fat .card-body {
+		padding: 15px;
+	}
+}
+
+.navbar.navbar-2 .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+}
